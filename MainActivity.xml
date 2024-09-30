@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!-- EditText para buscar el platillo-->
+    // EditText para buscar el platillo
     <EditText
         android:id="@+id/buscarEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Buscar platillo" />
 
-    <!-- ListView para mostrar la comida -->
+    // ListView para mostrar la comida
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
